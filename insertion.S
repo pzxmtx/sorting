@@ -4,12 +4,6 @@
 .globl _insertion
 
 .data
-values:				# array of numbers to sort
-	.quad 18, 3, 21, 5, 8, 7, 13, 10, 6, 11, 1
-
-count:				# number of elements on the sorted array
-	 .quad  ((.-values)/8)	# 
-				# 
 step:				# start counting from the next one, so 1
 	.quad 1			# 
 
