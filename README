@@ -1,0 +1,22 @@
+Sorting algorithms in C++ and ASM
+
+This rep contains implementation of few popular sorting algorithms 
+written in C++ and assembler languages (only two of them for the moment). 
+Just a few brief details are given in the code. 
+
+Tested with GNU gcc version 13.3
+
+Building on Linux:
+ cd <cloned_directory>
+ cmake . && cmake --build .
+
+In case other than standard compiler is needed, the one can be
+specified using the environment variable CXX before the 
+running cmake:
+
+ export CXX=/usr/bin/g++-13
+ cmake . && cmake --build .
+
+Please let me know if you have any questions.
+
+Ruslan Satlykov <pzxmtx@yandex.ru>
