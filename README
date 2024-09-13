@@ -1,7 +1,7 @@
 Sorting algorithms in C++ and ASM
 
 This rep contains implementation of few popular sorting algorithms 
-written in C++ and assembler languages (only two of them for the moment). 
+written in C++ and assembler languages (only three of them for the moment). 
 Just a few brief details are given in the code. 
 
 Tested with GNU gcc version 13.3
