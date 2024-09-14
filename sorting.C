@@ -78,8 +78,7 @@ struct sorting_test<long> testSuite[] =
     },
     {
         "quicksort with recursion",
-        qs_recursive,
-        true
+        qs_recursive
     },
     {
         "pyramid",
@@ -91,11 +90,8 @@ struct sorting_test<long> testSuite[] =
     }
 };
 
-// генерируем наборы данных и каждый алгоритм прогоняем с тем же
-// набором, что и остальные, дабы замерять время выполнения на 
-// идентичных данных.
 /*
- * Generate the sets of data. Each algorithm will run with the same 
+ * Make the data sets. Each algorithm will run with the same 
  * data as other ones, so that the timings would be measured on the 
  * same data set.
  *
