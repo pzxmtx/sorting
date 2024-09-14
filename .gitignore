@@ -1,0 +1,8 @@
+.gitgnore
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+sorting
+tests/insertion/test_insertion
+tests/selection/test_selection
